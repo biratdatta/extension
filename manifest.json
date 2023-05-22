@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "The Office Random Episode Selector",
+  "version": "1.0",
+  "description": "Selects random episodes from The Office TV show.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
